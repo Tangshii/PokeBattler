@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pokemon Battler</title>
+  <link href="pokemonStyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="mid">
+  <img src="res/dsnew.png"  class="over">
+  <div class="center">
+
+    <div class="white">
+      <div class="background">
+        <br><br>
+
+        <form class="title" method="post" action="chooseConfirm.php" autocomplete="on">
+          <div class="left le red">
+            <img src="res/charizard.gif" class="lef"><br><input type="radio" name="choose" required value="charizard">Charizard
+          </div>
+          <div class="left blue">
+            <img src="res/blastoise.gif" class="lef bla"><br><input type="radio" name="choose" required value="blastoise">Blastoise
+          </div>
+          <div class="left green">
+            <img src="res/venusaur.gif" class="lef ven"><br><input type="radio" name="choose" required value="venusaur">Venusaur
+          </div>
+        </div>
+
+      </div>
+      <div class=bottom>
+        <img src="res/oak.png"><br>
+        What is your name?<br>
+        <input type="text" name="name" required>
+
+        <br>
+        Are you a boy or girl?
+        <input type="radio" name="gender" required value="boy">Boy
+        <input type="radio" name="gender" required value="girl">Girl
+        <br><br> click submit, on the right
+        <div>
+          <br>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  </body>
+
+  </html>
